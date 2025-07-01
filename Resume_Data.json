@@ -1,0 +1,65 @@
+{
+  "job_description": {
+    "skills_required": [
+      { "skill": "UiPath", "level": "Expert", "weight": 30 },
+      { "skill": "Orchestrator", "level": "Intermediate", "weight": 15 },
+      { "skill": "REFramework", "level": "Intermediate", "weight": 15 },
+      { "skill": "SQL", "level": "Intermediate", "weight": 10 },
+      { "skill": "Python", "level": "Beginner", "weight": 5 },
+      { "skill": "AI Integration", "level": "Beginner", "weight": 10 },
+      { "skill": "Problem Solving", "level": "Expert", "weight": 15 }
+    ]
+  },
+  "resumes": [
+    {
+      "name": "abc",
+      "skills": {
+        "UiPath": "Expert",
+        "Orchestrator": "Basic",
+        "REFramework": "Intermediate",
+        "SQL": "Yes",
+        "Python": "Yes",
+        "AI Integration": "Intermediate",
+        "Problem Solving": "Expert"
+      },
+      "experience": "3.5",
+      "projects": [
+        {
+          "title": "Automated Invoice Processing",
+          "description": "Built a complete UiPath solution for invoice scanning, data extraction, and entry into SAP using REFramework and Orchestrator.",
+          "relevance": "High"
+        },
+        {
+          "title": "Email Bot for HR",
+          "description": "Developed a bot to read job applications and extract details using AI integration.",
+          "relevance": "Medium"
+        }
+      ]
+    },
+    {
+      "name": "xyz",
+      "skills": {
+        "UiPath": "Expert",
+        "Orchestrator": "Intermediate",
+        "REFramework": "Intermediate",
+        "SQL": "Yes",
+        "Python": "No",
+        "AI Integration": "Basic",
+        "Problem Solving": "Advanced"
+      },
+      "experience": "4",
+      "projects": [
+        {
+          "title": "Attendance Automation System",
+          "description": "Built using UiPath to track attendance across multiple shifts using Excel and SQL integration.",
+          "relevance": "High"
+        },
+        {
+          "title": "Simple Data Scraper",
+          "description": "Created a basic web scraper using UiPath for static content.",
+          "relevance": "Low"
+        }
+      ]
+    }
+  ]
+}
