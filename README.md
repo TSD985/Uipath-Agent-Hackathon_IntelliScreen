@@ -17,92 +17,103 @@ Traditional recruitment workflows can:
 
 IntelliScreen addresses these challenges using AI-powered resume analysis combined with UiPath RPA automation.
 
+---
+
 ### 🚀 Key Features
-1. Smart Email Monitoring
-- Automatically scans incoming emails and identifies resume attachments using subject-based filtering.
-2. AI Resume Classification
+#### 1. Smart Email Monitoring
+
+Automatically scans incoming emails and identifies resume attachments using subject-based filtering.
+
+#### 2. AI Resume Classification
+
 Analyzes resumes and categorizes candidates into:
+
 - Suitable
 - Borderline
 - Not Suitable
 3. Context-Aware AI Agents
-Agents are trained using:
+  
+#### Agents are trained using:
+
 - Job descriptions
 - Expected skills
 - Resume format examples
 - Hiring criteria
+  
 This improves classification accuracy and decision consistency.
-4. Candidate Information Extraction
+
+#### 4. Candidate Information Extraction
+
 Extracts candidate details such as:
+
 - Name
 - Email
 - Resume summary
 - ATS insights
-5. Personalized Automated Communication
+#### 5. Personalized Automated Communication
 - Suitable/Borderline candidates receive confirmation emails and interviewer forwarding.
 - Not Suitable candidates receive rejection reasons, ATS feedback, and improvement suggestions.
-6. Flexible Automation Triggers
+#### 6. Flexible Automation Triggers
+  
 Supports:
+
 - Manual execution
 - Event/email-triggered execution
 
 ---
 
-⚙️ Workflow Architecture
-Monitor inbox for incoming resumes
-Download and process attachments
-Extract resume content using Document Understanding
-Send extracted data to AI agents
-Generate candidate classification and summary
-Extract applicant information
-Send automated personalized responses
-Forward shortlisted candidates to recruiters/interviewers
-🛠️ Tech Stack
-UiPath Studio Web
-UiPath Orchestrator
-UiPath Mail Activities
-UiPath PDF Activities
-UiPath Document Understanding
-UiPath Integration Service
-UiPath Context-Grounded Agents
-💼 Use Cases
-Recruitment Automation
-Campus Placement Drives
-HR Resume Screening
-Staffing Agencies
-Internal Hiring Processes
-Bulk Candidate Evaluation
-🎯 Project Highlights
+### ⚙️ Workflow Architecture
+1. Monitor inbox for incoming resumes
+2. Download and process attachments
+3. Extract resume content using Document Understanding
+4. Send extracted data to AI agents
+5. Generate candidate classification and summary
+6. Extract applicant information
+7. Send automated personalized responses
+8. Forward shortlisted candidates to recruiters/interviewers
 
-✅ AI + RPA integrated workflow
-✅ Personalized candidate communication
-✅ Automated ATS-style evaluation
-✅ Context-grounded intelligent agents
-✅ Multiple resume format support
-✅ Reduced manual HR effort
-✅ Consistent candidate screening process
+---
+   
+### 🛠️ Tech Stack
+1. UiPath Studio Web
+2. UiPath Orchestrator
+3. UiPath Mail Activities
+4. UiPath PDF Activities
+5. UiPath Document Understanding
+6. UiPath Integration Service
+7. UiPath Agent Builder
 
-📚 Learning Outcomes
+---
 
-This project helped in gaining practical experience with:
+### 💼 Use Cases
+1. Recruitment Automation
+2. Campus Placement Drives
+3. HR Resume Screening
+4. Internal Hiring Processes
 
-AI-powered recruitment workflows
-UiPath Studio Web automation design
-Document Understanding pipelines
-Email automation systems
-Context-grounded AI agents
-Orchestrator-based automation management
-Real-world HR automation use cases
-🔮 Future Improvements
-Integration with HRMS platforms
-Resume ranking dashboard
-Multi-role job matching
-Analytics & hiring insights
-Candidate tracking portal
-Interview scheduling automation
-📂 Repository Contents
-.uis workflow files
-Resume samples
-Agent configurations
-Workflow diagrams
-Supporting JSON/context files
+---
+
+### 📚 Learning Outcomes
+- This project helped in gaining practical experience with:
+
+1. AI-powered recruitment workflows
+2. UiPath Studio Web automation design
+3. Document Understanding pipelines
+4. Email automation systems
+5. Context-grounded AI agents
+6. Orchestrator-based automation management
+7. Real-world HR automation use cases
+
+---
+
+### 🔮 Future Improvements
+1. Integration with HRMS platforms
+2. Resume ranking dashboard
+3. Multi-role job matching
+4. Interview scheduling automation
+
+## 📂 Repository Contents
+1. .uis workflow files
+2. Resume samples
+3. Supporting JSON - context files
+4. Workflow diagram (.png)
